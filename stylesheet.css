@@ -22,15 +22,6 @@ a {
     margin: 0 auto;
   }
 
-header {
-    height: 60px;
-    width: 100%;
-    background-color: white;
-    position :fixed;
-    top: 0;
-    z-index: 10;
-  }
-
   .top-wrapper {
       padding: 180px 0 100px 0;
       background-image: url(img/banner.jpeg);
