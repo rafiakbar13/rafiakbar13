@@ -1,0 +1,28 @@
+/* Tablet */
+@media all and (max-width: 1000px) {
+   .top-wrapper h1 {
+       font-size: 20px;
+   }
+
+   .top-wrapper p {
+       font-size: 15px;
+   }
+}
+
+
+
+/* Smartphone */
+@media all and (max-width: 670px) {
+    .start {
+        width: 80%;
+    }
+
+    .top-wrapper h1 {
+        font-size: 22px;
+    }
+
+    .top-wrapper p {
+        font-size: 12px;
+    }
+}
+

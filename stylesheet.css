@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "gloss";
+    src: url(img/Gloss_And_Bloom.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .top-wrapper {
+      padding: 180px 0 100px 0;
+      background-image: url(img/banner.jpeg);
+      background-size: cover;
+      background-position: fixed;
+      height: 600px;
+      color: white;
+      text-align: center;
+      position: relative;
+  }
+
+  .top-wrapper::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+      bottom: 0;
+      position: absolute;
+  }
+
+  .top-wrapper .container {
+      position: relative;
+      z-index: 1;
+  }
+  .top-wrapper h1 {
+      font-size: 25px;
+      letter-spacing: 8px;
+      font-family: 'gloss', sans-serif;
+    }
+
+    .top-wrapper p {
+        font-size: 15px;
+        font-family: 'Noto Sans', sans-serif;
+        letter-spacing: 5px;
+    }
+
+    .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+    }
+
+  .start{
+    padding: 10px 70px;
+    color: white;
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+    margin-top:65px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgba(49, 207, 188, 0.7);
+  }
+
+  .start:hover {
+      background-color: rgb(158, 72, 76);
+      transition: 0.3s;
+      opacity: 1;
+  }
+  
+
+
