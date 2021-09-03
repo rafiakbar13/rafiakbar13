@@ -72,11 +72,11 @@ a {
     text-align: center;
     margin-top:65px;
     font-family: 'Noto Sans', sans-serif;
-    background-color: rgba(49, 207, 188, 0.7);
+    background-color: rgba(49, 207, 188, 0.75);
   }
 
   .start:hover {
-      background-color: rgb(158, 72, 76);
+      background-color: rgba(255, 74, 82, 1);
       transition: 0.3s;
       opacity: 1;
   }
